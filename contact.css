@@ -1,0 +1,84 @@
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    overflow: hidden;
+  }
+
+  .container {
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    padding: 50px 20px;
+  }
+
+  .navbar_logo {
+    margin-top: 20px;
+    font-size: 36px;
+    }
+
+  p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin: 20px auto;
+    max-width: 800px;
+    color: #b3b3b3;
+  }
+
+  .team {
+    margin-top: 50px;
+  }
+
+  h2 {
+    font-size: 28px;
+    color: #0287fc;
+  }
+
+  .member {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    color: #23d7a4e0;
+  }
+
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+  .member {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+
+  .member:hover {
+    transform: scale(1.05);
+    background: #475157;
+  }
+
+  .member h3 {
+    font-size: 20px;
+    color: #e77625;
+  }
+
+  .member p {
+    font-size: 14px;
+    color: #b3b3b3;
+  }
+
+  .contact-info a {
+    display: block;
+    font-size: 14px;
+    color: #b3b3b3;
+    text-decoration: none;
+    margin: 5px 0;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }

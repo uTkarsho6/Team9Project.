@@ -1,0 +1,66 @@
+body {
+    background-image: url('https://img.freepik.com/free-photo/abstract-geometric-computer-wallpaper-white-border-connecting-dots-digital-technology-vector-design_53876-160227.jpg?t=st=1736961762~exp=1736965362~hmac=d22a2c1b8372950d49c5f3a3168d38e61f1a89c519f66c2126dfa75598e7852c&w=826'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #E0E0E0;
+}
+
+.card {
+    margin-top: 10%;
+    margin-left: 40%;
+    width: 330px;
+    height: 420px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+}
+
+.head {
+    margin-top: 40px;
+    color: #121212;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input-field input {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-bottom: 2px solid gray;
+    width: 80%;
+    padding: 8px 0;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.signup-btn {
+    width: 250px;
+    height: 40px; 
+    background-color: #121212;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    font-size: 20px;
+}
+
+.login-link {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #121212;
+}
+
+span {
+    color: #3727ca;
+    cursor: pointer;
+}

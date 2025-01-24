@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000000;
+      color: #ffffff;
+      overflow: hidden;
+    }
+
+    .container {
+      text-align: center;
+      position: relative;
+      z-index: 10;
+      padding: 50px 20px;
+    }
+
+    h1 {
+      margin-top: 20px;
+      font-size: 36px;
+      color: #ffffff;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.8;
+      margin: 20px auto;
+      max-width: 800px;
+      color: #b3b3b3;
+    }
+
+    .team {
+      margin-top: 50px;
+    }
+
+    .team h2 {
+      font-size: 28px;
+      color: #0287fc;
+    }
+
+    .team-members {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      gap: 20px;
+    }
+
+    .member {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 15px;
+      border-radius: 10px;
+      color: #23d7a4e0;
+    }
+
+    .team-members {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 20px;
+    }
+
+    .member {
+      background: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      width: 200px;
+      text-align: center;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    .member:hover {
+      transform: scale(1.05);
+      background: #475157;
+    }
+
+    .member img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .member h3 {
+      font-size: 20px;
+      color: #ffffff;
+    }
+
+    .member p {
+      font-size: 14px;
+      color: #b3b3b3;
+    }
+
+    .background-animation {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background: #121212;
+      overflow: hidden;
+    }
+
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="background-animation">
+    <canvas id="backgroundCanvas"></canvas>
+  </div>
+
+  <div class="container">
+    <h1>About Us</h1>
+    <p>
+      Welcome to our website! We are a team of passionate developers dedicated to creating innovative solutions and
+      providing resources for learning programming languages like C, C++, Python and many more. Our mission is to build a
+      community where knowledge is shared, and everyone grows together.
+    </p>
+
+    <div class="team">
+      <h2>Meet the Team</h2>
+      <div class="team-members">
+        <div class="member">
+          <img src="https://media.licdn.com/dms/image/v2/D4D03AQHPU6PeRPyeog/profile-displayphoto-shrink_800_800/B4DZRTP6FIHMAc-/0/1736563467595?e=1743033600&v=beta&t=O2c9j1MpcO4x2Gzhi7jgYUSYBmnJTr46l12HebOiqsY" alt="Team Member">
+          <h3>Utkarsh Patil</h3>
+          <p>A developer with intermediate knowledge of C++ <br> HTML & CSS</p>
+        </div>
+        <div class="member">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjPvtiT-clDCH1yJ8eybgXBMWlALjTV__QnA&s" alt="Team Member">
+          <h3>Sachchit Nesarikar</h3>
+          <bold></bold><p>A beginner in programming with intermediate knowledge of Python, C++ & MySQL</p>
+        </div>
+        <div class="member">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjPvtiT-clDCH1yJ8eybgXBMWlALjTV__QnA&s" alt="Team Member">
+          <h3>Ishaan Dhar</h3>
+          <p>UI/UX Designer</p>
+        </div>
+        <div class="member">
+            <img src="https://media.licdn.com/dms/image/v2/D5603AQEr7naMldgtIw/profile-displayphoto-shrink_400_400/B56ZP9QN5.GsAg-/0/1735120708242?e=1743033600&v=beta&t=kCI-bay6YqSm0KAZPXHdKnsqoML7mAWLoOrFKSxXJYs" alt="Team Member">
+            <h3>Swaroop Phatak</h3>
+            <p>UI/UX Designer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+  </html>
